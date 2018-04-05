@@ -1,0 +1,15 @@
+---
+title: "ESM204 HW1"
+author: "Charlene Kormondy"
+date: "April 5, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+If Species A is our sole concern, all 13 parcels with a 3 quality rating and 9 of the least expensive parcels with a 2 quality rating would be selected for a total cost of $10 million. If the goal is to protect species A, then we only need to focus on the parcels in which the habitat quality index are highest for species A. To get this answer, we ranked the parcels from highest to lowest based on the quality index for species A and then we ranked the cost from lowest to highest. This method allowed us to determine the parcels that will result in the highest overall quality habitat for the least cost.
+
